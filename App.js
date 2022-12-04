@@ -1,10 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import {Link} from "react-router-dom";
+import {Link} from "expo-route"
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Start react native application created By : Davi Freitas de Melo!</Text>\
+      <link to="/image">Click here for go to my image page!</link>
       <StatusBar style="auto" />
     </View>
   );
